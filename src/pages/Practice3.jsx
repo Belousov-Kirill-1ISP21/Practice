@@ -28,7 +28,7 @@ export const Practice3 = (props)=>{
 
     <Header/>
 
-    <div>
+    <div className={styles.saper}>
         <h1>Сапёр</h1>
         
         <table>
@@ -72,7 +72,7 @@ const ButtonMine =(props) => {
   }
 
   return(
-      <button style={{padding:10}} onClick={click}>{display}</button>
+      <button className={styles.sapBut} onClick={click}>{display}</button>
   );
 }
 

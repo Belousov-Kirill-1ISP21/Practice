@@ -9,8 +9,6 @@
 
 .HeaderButton{
     float: left;
-    width: 9%;
-    height: 100%;
     background-color: white;
     border: none;
     font-size: 2vh;
@@ -18,8 +16,11 @@
     text-wrap: nowrap;
     margin-left: 1%;
     outline: none;
+    margin-top: 4%;
 }
 
 .HeaderLeftLink{
     text-decoration: none;
+    width: 9%;
+    height: 100%;
 }

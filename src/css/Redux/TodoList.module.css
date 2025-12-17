@@ -1,0 +1,29 @@
+.todoList {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.todoList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.todoList::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.todoList::-webkit-scrollbar-thumb {
+  background: #3498db;
+  border-radius: 4px;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px;
+  color: #95a5a6;
+  font-style: italic;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #ddd;
+}

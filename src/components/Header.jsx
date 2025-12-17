@@ -6,18 +6,36 @@ export const Header = () => {
 
     return (
         <div className={styles.Header} id="Header">
-        
-        <button className={styles.HeaderButton}>
-            <Link to="/" className={styles.HeaderLink}>Практика 1</Link>
-        </button>
 
-        <button className={styles.HeaderButton}>
-            <Link to="/Practice2" className={styles.HeaderLink}>Практика 2</Link>
-        </button>
+        <Link to="/" className={styles.HeaderLink}>
+            <button className={styles.HeaderButton}>
+                Практика 1
+            </button>
+        </Link>
 
-        <button className={styles.HeaderButton}>
-            <Link to="/Practice3" className={styles.HeaderLink}>Практика 3</Link>
-        </button>
+        <Link to="/Practice2" className={styles.HeaderLink}>
+            <button className={styles.HeaderButton}>
+                Практика 2
+            </button>
+        </Link>
+
+        <Link to="/Practice3" className={styles.HeaderLink}>
+            <button className={styles.HeaderButton}>
+                Практика 3
+            </button>
+        </Link>
+
+        <Link to="/Practice4" className={styles.HeaderLink}>
+            <button className={styles.HeaderButton}>
+                Практика 4
+            </button>
+        </Link>
+
+        <Link to="/Practice5" className={styles.HeaderLink}>
+            <button className={styles.HeaderButton}>
+                Практика 5
+            </button>
+        </Link>
  
     </div>
     )
