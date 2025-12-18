@@ -6,7 +6,7 @@ const initialState = {
     { id: 2, text: 'Изучить Redux Toolkit', completed: false },
     { id: 3, text: 'Создать ToDo приложение', completed: false },
   ],
-  filter: 'all', // 'all', 'active', 'completed'
+  filter: 'all', 
 };
 
 const todoSlice = createSlice({

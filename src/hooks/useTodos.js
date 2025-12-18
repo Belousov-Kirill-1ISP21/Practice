@@ -24,7 +24,6 @@ export const useCreateTodo = () => {
   return useMutation({
     mutationFn: (text) => todosAPI.createTodo(text),
     onMutate: async (text) => {
-      // Оптимистичное обновление
       await queryClient.cancelQueries(['todos']);
       
       const previousTodos = queryClient.getQueryData(['todos']);
