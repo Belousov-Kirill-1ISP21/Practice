@@ -249,8 +249,7 @@ html, body {
   50% { opacity: 0.5; }
 }
 
-/* Убираем все градиенты и лишние тени */
 .queryInfo,
 .features {
-  display: none; /* Скрываем блоки которые были в предыдущей версии */
+  display: none; 
 }
